@@ -28,12 +28,6 @@ jobs:
           cache: 'pnpm'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Cache .svelte-kit directory
-        uses: actions/cache@v4
-        with:
-          path: .svelte-kit
-          key: ${{ runner.os }}-svelte-kit-${{ hashFiles('**/*.ts', '**/*.tsx', '**/*.svelte') }}
-
       - name: Install dependencies
         run: pnpm install
 
