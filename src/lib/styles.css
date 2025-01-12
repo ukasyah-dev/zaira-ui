@@ -1,0 +1,55 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+	--background: #ffffff;
+	--foreground: #000000;
+	--muted-background: #f3f4f6;
+	--muted-foreground: #9ca3af;
+	--border: #74777a;
+}
+
+.dark {
+	--background: #212121;
+	--background-hover: #292929;
+	--foreground: #e5e5e5;
+	--foreground-hover: #dbdbdb;
+	--brand: #4f46e5;
+	--brand-hover: #5750e3;
+	--brand-alt: #7872eb;
+	--muted-background: #323232;
+	--muted-background-hover: #383838;
+	--muted-foreground: #a3a3a3;
+	--border: #404040;
+	--border-hover: #828282;
+	--placeholder: #7c7c7c;
+
+	color-scheme: dark;
+}
+
+* {
+	font-optical-sizing: auto;
+	font-variation-settings: 'wdth' 100;
+}
+
+@layer base {
+	html,
+	body,
+	body > div {
+		@apply h-full;
+	}
+
+	body {
+		@apply bg-background text-foreground;
+	}
+
+	a,
+	button {
+		@apply ring-offset-background focus-visible:ring-brand-hover outline-none ring-0 ring-offset-2 focus-visible:ring-2;
+	}
+
+	a {
+		@apply rounded-md;
+	}
+}

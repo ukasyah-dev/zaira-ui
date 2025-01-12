@@ -1,13 +1,10 @@
-import forms from '@tailwindcss/forms';
-import typography from '@tailwindcss/typography';
 import type { Config } from 'tailwindcss';
+import preset from './src/lib/preset';
 
 export default {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
-
+	content: ['./src/**/*.{html,js,svelte,svx,ts}'],
 	theme: {
 		extend: {}
 	},
-
-	plugins: [typography, forms]
+	presets: [preset]
 } satisfies Config;
