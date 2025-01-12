@@ -44,6 +44,7 @@ export default {
 							fontWeight: 600
 						},
 						h1: {
+							fontSize: '2rem',
 							marginBottom: '0.75rem'
 						},
 						h2: {
