@@ -29,7 +29,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .svelte-kit
-          key: ${{ runner.os }}-svelte-kit
+          key: ${{ runner.os }}-svelte-kit-${{ hashFiles('**/*.ts', '**/*.tsx', '**/*.svelte') }}
 
       - name: Install dependencies
         run: pnpm install
