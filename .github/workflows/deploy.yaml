@@ -1,0 +1,14 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    uses: ukasyah-dev/actions/.github/workflows/deploy-svelte-kit.yaml@main
+    permissions:
+      contents: read
+      packages: write
+    secrets: inherit
