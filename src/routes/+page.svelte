@@ -5,5 +5,6 @@
 			A simple and elegant UI library for Svelte, designed to help you create beautiful interfaces
 			with ease.
 		</p>
+		<p class="mt-3">Maintained by Ukasyah</p>
 	</div>
 </div>
