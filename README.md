@@ -35,7 +35,10 @@ import type { Config } from 'tailwindcss';
 import preset from 'zaira-ui/preset';
 
 export default {
-  content: ['./node_modules/zaira-ui/dist/**/*.{js,svelte}', './src/**/*.{html,js,svelte,svx,ts}'],
+  content: [
+    './node_modules/zaira-ui/dist/**/*.{js,svelte}',
+    './src/**/*.{html,js,svelte,svx,ts}'
+  ],
   theme: {
     extend: {}
   },
