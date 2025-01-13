@@ -45,7 +45,7 @@ export default {
 						},
 						h1: {
 							fontSize: '2rem',
-							marginBottom: '0.75rem'
+							marginBottom: '0.875rem'
 						},
 						h2: {
 							marginBottom: '1rem',

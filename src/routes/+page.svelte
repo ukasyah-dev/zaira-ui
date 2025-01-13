@@ -16,7 +16,7 @@
 			</p>
 			<div class="mt-6 flex justify-center gap-3">
 				<Button href="/docs/getting-started">Get Started</Button>
-				<Button variant="secondary">Browse components</Button>
+				<Button href="/docs/components" variant="secondary">Browse components</Button>
 			</div>
 		</div>
 	</div>
