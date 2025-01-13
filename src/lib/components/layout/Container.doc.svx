@@ -1,3 +1,27 @@
+<script lang="ts">
+  import { Container, Preview } from './index.js';
+</script>
+
 # Container
 
 A centrally aligned wrapper for your content.
+
+<Preview>
+  <Container class="max-w-md">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Non reiciendis natus nobis repudiandae vel cum optio sed
+      doloribus repellendus.
+    </p>
+  </Container>
+</Preview>
+
+```svelte
+<Container class="max-w-md">
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Non reiciendis natus nobis repudiandae vel cum optio sed
+    doloribus repellendus.
+  </p>
+</Container>
+```
