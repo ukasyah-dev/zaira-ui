@@ -1,0 +1,30 @@
+<script lang="ts">
+  import { Container, Preview } from '$lib/index.js';
+</script>
+
+# Container
+
+Helps you center and constrain your content with consistent padding and max-widths.
+
+<Preview>
+<Container size="sm">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Proin massa arcu, porttitor sed porta placerat,
+    condimentum non dui. Suspendisse ullamcorpertincidunt
+    volutpat. Cras ultrices rutrum viverra.
+  </p>
+</Container>
+</Preview>
+
+
+```svelte
+<Container size="sm">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Proin massa arcu, porttitor sed porta placerat, condimentum
+    non dui. Suspendisse ullamcorpertincidunt volutpat. Cras
+    ultrices rutrum viverra.
+  </p>
+</Container>
+```

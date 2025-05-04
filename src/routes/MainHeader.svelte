@@ -8,11 +8,11 @@
 			<a href="/">Zaira UI</a>
 		</p>
 
-		<div class="flex items-center gap-5">
-			<a href="/docs/getting-started" class="text-foreground-muted text-sm">Getting started</a>
-			<a href="/" class="text-foreground-muted text-sm">Components</a>
-			<a href="/" class="text-foreground-muted text-sm">Examples</a>
-			<a href="/" class="text-foreground-muted text-sm">Source code</a>
+		<div class="text-foreground-muted flex items-center gap-5 text-sm font-normal">
+			<a href="/docs/getting-started">Getting started</a>
+			<a href="/docs/components">Components</a>
+			<a href="/docs/examples">Examples</a>
+			<a href="/">Source code</a>
 		</div>
 	</Container>
 </div>

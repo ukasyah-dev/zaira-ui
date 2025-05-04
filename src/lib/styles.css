@@ -6,15 +6,23 @@
 :root {
 	--background: var(--color-white);
 	--background-muted: var(--color-neutral-50);
+	--background-primary: var(--color-neutral-800);
+	--background-primary-hover: var(--color-neutral-700);
 	--foreground: var(--color-neutral-800);
 	--foreground-muted: var(--color-neutral-600);
+	--foreground-primary: var(--color-white);
+	--border: var(--color-neutral-200);
 }
 
 @theme {
 	--color-background: var(--background);
 	--color-background-muted: var(--background-muted);
+	--color-background-primary: var(--background-primary);
+	--color-background-primary-hover: var(--background-primary-hover);
 	--color-foreground: var(--foreground);
 	--color-foreground-muted: var(--foreground-muted);
+	--color-foreground-primary: var(--foreground-primary);
+	--color-border: var(--border);
 
 	--font-sans: 'Inter', 'sans-serif';
 	--font-mono: 'JetBrains Mono', 'sans-serif';

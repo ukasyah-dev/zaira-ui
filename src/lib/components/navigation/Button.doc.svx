@@ -1,0 +1,15 @@
+<script lang="ts">
+  import { Button, Preview } from '$lib/index.js';
+</script>
+
+# Button
+
+Flexible, accessible, and styled action trigger you can use for anything.
+
+<Preview>
+<Button>Primary</Button>
+</Preview>
+
+```svelte
+<Button>Primary</Button>
+```

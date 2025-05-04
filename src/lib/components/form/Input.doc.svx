@@ -1,0 +1,20 @@
+<script lang="ts">
+  import { Container, Input, Preview } from '$lib/index.js';
+</script>
+
+# Input
+
+Simple, styled, and accessible text field for forms, search bars, or any user input.
+
+<Preview>
+<Container size="xs">
+  <Input placeholder="Enter your name" />
+</Container>
+</Preview>
+
+
+```svelte
+<Container size="xs">
+  <Input placeholder="Enter your name" />
+</Container>
+```
