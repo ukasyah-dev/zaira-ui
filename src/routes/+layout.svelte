@@ -1,9 +1,13 @@
 <script lang="ts">
-	import { Provider } from '$lib/index.js';
+	import { Provider, title } from '$lib/index.js';
 	import '$lib/styles.css';
 
 	let { children } = $props();
 </script>
+
+<svelte:head>
+	<title>{title.get()}</title>
+</svelte:head>
 
 <Provider>
 	{@render children()}

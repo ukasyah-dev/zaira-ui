@@ -9,7 +9,7 @@
 		</p>
 
 		<div class="flex items-center gap-5">
-			<a href="/" class="text-foreground-muted text-sm">Getting started</a>
+			<a href="/docs/getting-started" class="text-foreground-muted text-sm">Getting started</a>
 			<a href="/" class="text-foreground-muted text-sm">Components</a>
 			<a href="/" class="text-foreground-muted text-sm">Examples</a>
 			<a href="/" class="text-foreground-muted text-sm">Source code</a>

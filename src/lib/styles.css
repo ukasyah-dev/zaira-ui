@@ -5,16 +5,19 @@
 
 :root {
 	--background: var(--color-white);
+	--background-muted: var(--color-neutral-50);
 	--foreground: var(--color-neutral-800);
 	--foreground-muted: var(--color-neutral-600);
 }
 
 @theme {
 	--color-background: var(--background);
+	--color-background-muted: var(--background-muted);
 	--color-foreground: var(--foreground);
 	--color-foreground-muted: var(--foreground-muted);
 
 	--font-sans: 'Inter', 'sans-serif';
+	--font-mono: 'JetBrains Mono', 'sans-serif';
 }
 
 html,

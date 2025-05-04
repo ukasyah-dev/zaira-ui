@@ -1,0 +1,28 @@
+# Getting started
+
+This library requires that you have a [SvelteKit](https://svelte.dev/docs/kit/introduction)
+project with [Tailwind CSS](https://tailwindcss.com/) set up. If you haven't done so yet,
+please refer to the official documentation to begin.
+
+To install the library, run:
+
+```bash
+pnpm add -D zaira-ui
+```
+
+Update `src/routes/+layout.svelte` file:
+
+```svelte
+<script lang="ts">
+  import { Provider } from 'zaira-ui';
+  import 'zaira-ui/styles.css';
+
+  let { children } = $props();
+</script>
+
+<Provider>
+  {@render children()}
+</Provider>
+```
+
+That's it! You're now ready to build with Zaira UI.

@@ -8,7 +8,7 @@
 </script>
 
 <a
-	class={twMerge('text-foreground underline underline-offset-2', className?.toString())}
+	class={twMerge('text-foreground font-medium underline underline-offset-4', className?.toString())}
 	{href}
 	{...rest}
 >

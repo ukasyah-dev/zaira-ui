@@ -1,6 +1,9 @@
 <script lang="ts">
+	import { title } from '$lib/index.js';
 	import MainFooter from './MainFooter.svelte';
 	import MainHeader from './MainHeader.svelte';
+
+	title.reset();
 </script>
 
 <MainHeader />
