@@ -6,6 +6,6 @@ on:
       - published
 
 jobs:
-  deploy:
+  publish:
     uses: ukasyah-dev/actions/.github/workflows/publish-npmjs.yml@main
     secrets: inherit
